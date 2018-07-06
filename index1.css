@@ -49,7 +49,7 @@ img{
     border:2px solid #ddd;
     margin:5%;
     box-shadow:3px 3px 3px #ddd;
-    border-radius:20px
+    border-radius:50px
 
   }
   .childTwo{
@@ -58,7 +58,7 @@ img{
       border:2px solid #ddd;
       margin:5%;
       box-shadow:3px 3px 3px #ddd;
-      border-radius:20px
+      border-radius:50px
   }
 
 }
