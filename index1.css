@@ -1,0 +1,64 @@
+body{
+  background-color:rgb(0,0,100);
+  background-image: image(/home/acer/Downloads);
+}
+
+.parent {
+    display:;flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.childOne{
+  margin: auto;
+  width:40%;
+  padding:6%;
+  border:2px solid #ddd;
+  margin:5%;
+  border-radius:200px;
+
+}
+.childTwo{
+    width:40%;
+    padding:6%;
+    border:2px solid #ddd;
+    margin:5%;
+    border-radius:20px;
+}
+img{
+   margin-bottom: auto;
+   margin-right: auto;
+   margin: auto;
+   display: block;
+   width:40%;
+   padding:6%;
+   border:2px solid #ddd;
+   margin:5%;
+}
+@media only screen and (min-width:320px) and (max-width:420px){
+  .parent {
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+
+  }
+  .childOne{
+    margin: auto;
+    width:40%;
+    padding:6%;
+    border:2px solid #ddd;
+    margin:5%;
+    box-shadow:3px 3px 3px #ddd;
+    border-radius:20px
+
+  }
+  .childTwo{
+      width:40%;
+      padding:6%;
+      border:2px solid #ddd;
+      margin:5%;
+      box-shadow:3px 3px 3px #ddd;
+      border-radius:20px
+  }
+
+}
