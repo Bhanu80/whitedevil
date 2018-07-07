@@ -1,5 +1,5 @@
 body{
-  bg-color: blue;
+  background-color: blue;
  
 }
 
@@ -16,7 +16,7 @@ body{
   border:2px solid #ddd;
   margin:5%;
   border-radius:200px;
-  bg-color: green;
+  background-color: green;
  
 
 }
@@ -52,6 +52,7 @@ img{
     margin:5%;
     box-shadow:3px 3px 3px #ddd;
     border-radius:50px
+      background-color: green
 
   }
   .childTwo{
